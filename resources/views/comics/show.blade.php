@@ -7,11 +7,8 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>BUONGIORNO {{ $utente }}</h1>
 
-    @foreach ($fumetti as $fumetto)
     <h2>{{  $fumetto->title  }}</h2>
     <h3>{{  $fumetto->description  }}</h3>
-    @endforeach
 </body>
 </html>
